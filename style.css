@@ -1,0 +1,26 @@
+
+.jumbotron{
+    background-image: url('./header.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+.map{
+    background-image: url('./map_image.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+.bg-mycolor{
+    background-color: #56203D;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

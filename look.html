@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Xebi-Smatter</title>
+  </head>
+  <body>
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-mycolor">
+        <a class="navbar-brand d-inline-block ml-5" href="#"><strong>XEBI</strong>-Smatter than you think</a>
+
+        <ul class="nav mr-5">
+          <li class="nav-item">
+            <img src="./79.jpg" width="30" height="30" class="ml-3 d-inline-block rounded-circle mt-1" alt="">
+        </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">UserName</a>
+            </li>
+          </ul>
+  </nav>
+  
+  <header>
+    <div class="jumbotron text-white">
+      <p class="lead display-4 text-center">This is a simple hero unit, The robot is designed to guide in open environments that do not require human supervision by using sensors to roam throughout office freely.  </p>
+      <hr class="my-4">
+    </div>
+  </header>
+
+  <section>
+      <div class="container-fluid pb-5 pt-3 px-4">
+        <div class="row d-flex justify-content-around">
+            <div class="col-3 px-4 mr-3">
+              <h4 class="mb-4">Robot Navigation</h4>
+              <form>
+                <div class="form-group">
+                  <label for="RobotNavigation">Source</label>
+                  <input type="text" class="form-control" id="sourceInput">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Destination</label>
+                  <input type="text" class="form-control" id="destinationInput">
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </form>
+            </div>
+            <div class="col-3 px-4 mx-3">
+              <h4 class="mb-4">Call Robot</h4>
+              <form>
+                <div class="form-group">
+                  <label for="CallRobot">Robot Position</label>
+                  <input type="text" class="form-control" id="robotpositionInput" >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Desired Destination</label>
+                  <input type="text" class="form-control" id="robotdestinationInput">
+                </div>
+                <button type="submit" class="btn btn-danger">Submit</button>
+              </form>
+            </div>
+            <div class="col-3 px-4 ml-3">
+              <h4 class="mb-4">Notify User</h4>
+              <form>
+                <div class="form-group">
+                  <label for="NotifyUser">Message</label>
+                  <input type="text" class="form-control" id="messageId">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section>
+    <div class=" map container-fluid border  bg-light" style="height: 500px;">
+     
+    </div>
+  </section>
+
+  <footer>
+    <p>That's all folks!</p>
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
